@@ -183,6 +183,7 @@ aside > h3{
     margin-top: -21px;
     border-radius: 6px 6px 0px 0px;
     padding: 12px;
+    background-color: transparent;
 }
 
 footer{
