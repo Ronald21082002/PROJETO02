@@ -30,25 +30,22 @@ body{
     font-family: var(--fonte-padrao);
 }
 
-main p {
-    margin: 15px 0px;
-    text-align: justify;
-    
-}
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
     text-align: center;
     padding-top: 15px;
+    min-width: 450px;
 }
 
 header > h1 {
- color: white;
- font-family:var(--fonte-destaque);
- margin-bottom: 20px;
-font-size: 3em;
-text-shadow: 3px 3px 0px #2fa866;
+    color: white;
+    font-family:var(--fonte-destaque);
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-weight: normal;
+    text-shadow: 3px 3px 0px #2fa866;
 }
 
 header > p {
@@ -64,7 +61,7 @@ header > p {
 nav {
     background-color: var(--cor5);
     padding: 10px;
-    
+    min-width: 430px;
 }
 
 nav > a {
@@ -74,14 +71,14 @@ nav > a {
     font-weight: bold;
     border-radius: 3px;
     transition-duration: 1s;
-
+    
 }
 
 nav > a:hover{
     background-color: darkslategrey ;
-
+    
 }
- 
+
 main{
     min-width:400px;
     max-width:1000px;
@@ -131,13 +128,13 @@ main img.pequena{
     max-width: 330px;
     margin: auto;
     display: block;
-
+    
 }
 
 main strong{
     color: #1a5c37;
     font-weight: bold;
-
+    
 } 
 
 main a {
@@ -153,12 +150,20 @@ main a:hover{
     color: white;
 }
 
-.video{
-    margin: auto;
-    display: block;
-    padding: 20px; 
+div.video{
+    margin: 0px -20px 30px -20px;
+    padding: 30px;
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
     border-radius: 8px;
+    position: relative;
+    padding-bottom: 50%;
+}
+div.video > iframe{
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 aside{
@@ -191,7 +196,7 @@ footer{
     color: white;
     text-indent: 100px;
     padding: 15px 0px;
-   
+    min-width: 450px;
 }
 
 footer > a {
