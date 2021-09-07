@@ -98,20 +98,20 @@ main img {
 
 main h1{
     color: rgb(61, 59, 59);
-    font-family:var(--fonte-destaque);
+    font-family:var(--fonte-padrao);
     color: white;
     background-image: linear-gradient(to right, var(--cor4), transparent);
     padding: 2px 5px;
 }
 main h2{
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrao);
     color: white;
     background-image: linear-gradient(to right, var(--cor4), transparent);
 }
 
 main h3{
     color: white;
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrao);
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor4), transparent);
     padding: 5px 5px;
